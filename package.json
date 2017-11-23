@@ -1,5 +1,5 @@
 {
-  "name": "redux-websocket",
+  "name": "redux-middleware-websocket",
   "version": "0.0.21",
   "description": "A redux middleware to handle websocket connections",
   "main": "dist/index.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/giantmachines/redux-websocket.git"
+    "url": "git@github.com:SauloSilva/redux-websocket.git"
   },
   "keywords": [
     "redux"
   ],
-  "author": "David Michael",
+  "author": "Saulo Santiago <saulodasilvasantiago@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/giantmachines/redux-websocket/issues"
