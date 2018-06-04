@@ -78,6 +78,9 @@ var createMiddleware = function createMiddleware() {
   return function (store) {
     return function (next) {
       return function (action) {
+        if (!action.type) {
+          next(action);
+        }
         switch (action.type) {
           // User request to connect
           case WEBSOCKET_CONNECT:
